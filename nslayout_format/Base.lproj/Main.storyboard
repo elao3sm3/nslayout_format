@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="N8l-af-4Pc">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="vnm-o1-x9O">
+            <objects>
+                <viewController id="F0g-SD-k8M" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pj8-Xh-h4H"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Kv-Hs-gSc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cng-zX-fHC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V6f-vQ-Bfg">
+                                <rect key="frame" x="154" y="139" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4B8-0f-KI9">
+                                <rect key="frame" x="87" y="259" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s4p-Xw-VXj">
+                                <rect key="frame" x="40" y="74" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Kv-Hs-gSc" firstAttribute="top" secondItem="4B8-0f-KI9" secondAttribute="bottom" constant="20" id="26B-pq-oXB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4B8-0f-KI9" secondAttribute="trailing" id="Bbr-Vk-wbM"/>
+                            <constraint firstItem="s4p-Xw-VXj" firstAttribute="top" secondItem="Pj8-Xh-h4H" secondAttribute="bottom" constant="20" id="HdI-Oa-S32"/>
+                            <constraint firstItem="s4p-Xw-VXj" firstAttribute="leading" secondItem="cng-zX-fHC" secondAttribute="leadingMargin" id="MCZ-e0-fNJ"/>
+                            <constraint firstItem="4B8-0f-KI9" firstAttribute="height" secondItem="V6f-vQ-Bfg" secondAttribute="height" id="Sds-fl-Hhp"/>
+                            <constraint firstItem="4B8-0f-KI9" firstAttribute="top" secondItem="V6f-vQ-Bfg" secondAttribute="bottom" constant="20" id="UoW-WM-AHF"/>
+                            <constraint firstItem="V6f-vQ-Bfg" firstAttribute="leading" secondItem="s4p-Xw-VXj" secondAttribute="trailing" constant="20" id="YtB-Ya-H2d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="V6f-vQ-Bfg" secondAttribute="trailing" id="aG7-8O-ahz"/>
+                            <constraint firstItem="V6f-vQ-Bfg" firstAttribute="width" secondItem="s4p-Xw-VXj" secondAttribute="width" id="hFG-zE-moY"/>
+                            <constraint firstItem="4B8-0f-KI9" firstAttribute="height" secondItem="s4p-Xw-VXj" secondAttribute="height" id="hRY-ld-R9O"/>
+                            <constraint firstItem="V6f-vQ-Bfg" firstAttribute="top" secondItem="Pj8-Xh-h4H" secondAttribute="bottom" constant="20" id="njj-fj-pd6"/>
+                            <constraint firstItem="4B8-0f-KI9" firstAttribute="top" secondItem="s4p-Xw-VXj" secondAttribute="bottom" constant="20" id="ohx-3d-e3J"/>
+                            <constraint firstItem="4B8-0f-KI9" firstAttribute="leading" secondItem="cng-zX-fHC" secondAttribute="leadingMargin" id="zhU-Xp-lrr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R4r-hQ-XOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-679" y="3"/>
+        </scene>
+        <!--NSLayout-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="NSLayout" id="BYZ-38-t0r" customClass="ViewController" customModule="nslayout_format" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--VFL-->
+        <scene sceneID="8KW-jc-Ipw">
+            <objects>
+                <viewController title="VFL" id="qAL-Fu-BHD" customClass="formatViewController" customModule="nslayout_format" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Oj-pO-6xU"/>
+                        <viewControllerLayoutGuide type="bottom" id="A8A-cE-dvq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eYZ-b7-nlD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7w8-ar-PR8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="807" y="29"/>
+        </scene>
+        <!--SnapKit-->
+        <scene sceneID="wz6-Ku-mOa">
+            <objects>
+                <viewController title="SnapKit" id="N8l-af-4Pc" customClass="SnapKitViewController" customModule="nslayout_format" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8qu-R7-3tF"/>
+                        <viewControllerLayoutGuide type="bottom" id="p01-nf-m9s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3fq-vH-PhB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d80-6R-Yqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1478" y="-47"/>
+        </scene>
+    </scenes>
+</document>

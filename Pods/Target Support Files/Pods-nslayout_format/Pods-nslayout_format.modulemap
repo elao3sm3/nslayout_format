@@ -1,0 +1,6 @@
+framework module Pods_nslayout_format {
+  umbrella header "Pods-nslayout_format-umbrella.h"
+
+  export *
+  module * { export * }
+}
